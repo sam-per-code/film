@@ -1,0 +1,7 @@
+The FilmFlix Menu options.
+Enter:
+1. Add a films.
+2. Delete a film.
+3. Print all films.
+4. Update a film.
+5. Search film database.
