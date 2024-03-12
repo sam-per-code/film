@@ -14,8 +14,7 @@ def print_all_films():
         for aFilm in allfilms:
                 print(f"{aFilm[0]:<5} | {aFilm[1]:<50} | {aFilm[2]:<5} | {aFilm[3]:<5} | {aFilm[4]:<10} | {aFilm[5]:<8}")
 
-        else:
-            print("No films listed")
+        
     except sql.OperationalError as e:
         print(f"Failed because: {e}")
     except sql.ProgrammingError as pe:
